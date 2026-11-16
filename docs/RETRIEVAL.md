@@ -1,5 +1,8 @@
 # Knowledge Corpus Retrieval & Grounding Strategy (D2, L1)
 
+> **Lead Engineer:** Student 3 (Knowledge Retrieval, Evaluation & Frontend Engineer)  
+> **Components:** ChromaDB Persistent Store, BM25 Okapi Sparse Index, Reciprocal Rank Fusion ($k=60$)
+
 ## 1. Executive Summary
 
 IncidentOps uses a hybrid retrieval architecture combining dense vector embeddings (`all-MiniLM-L6-v2` executed on CPU) and sparse lexical retrieval (BM25) over PostgreSQL 18 official documentation, operational runbooks, and escalation policy. Candidates are merged using **Reciprocal Rank Fusion (RRF)**.

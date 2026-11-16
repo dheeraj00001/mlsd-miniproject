@@ -1,4 +1,8 @@
-"""BM25 sparse retriever over document chunks."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+BM25 sparse keyword retriever over document chunks.
+Maintains an inverted keyword index with persisted token cache for high-speed sub-millisecond retrieval.
+"""
 
 import json
 import logging

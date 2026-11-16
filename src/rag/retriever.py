@@ -1,4 +1,8 @@
-"""Hybrid Retriever combining dense Chroma vector search and sparse BM25 via Reciprocal Rank Fusion (RRF)."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Hybrid Retriever combining dense Chroma vector search and sparse BM25 via Reciprocal Rank Fusion (RRF).
+Enforces rank constant k=60, duplicate suppression, score normalization, and metadata filtering.
+"""
 
 import logging
 from collections import defaultdict
