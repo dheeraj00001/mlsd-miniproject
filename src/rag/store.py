@@ -1,4 +1,8 @@
-"""Chroma vector store repository with CPU all-MiniLM-L6-v2 embeddings and ID-based upsert."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Chroma vector store repository with CPU all-MiniLM-L6-v2 embeddings and ID-based upsert.
+Supports idempotent upserting, metadata filtering, and cosine similarity queries.
+"""
 
 import json
 import logging
