@@ -1,0 +1,41 @@
+# Python cache and test artifacts
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Data and logs (keep minimal; mount volumes for persistence)
+*.log
+*.db
+
+# Frontend node_modules if applicable
+node_modules/
+npm-debug.log
+
+# Temporary files
+.tmp/
+tmp/
