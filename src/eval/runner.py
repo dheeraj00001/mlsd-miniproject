@@ -1,5 +1,6 @@
-"""Evaluation Runner & Scientific Metrics Engine (L3, eval-integrity.md).
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
 
+Evaluation Runner & Scientific Metrics Engine (L3, eval-integrity.md).
 Evaluates the multi-agent reasoning layer across synthetic incident scenarios,
 measuring cause-class accuracy, routing accuracy, escalation precision/recall,
 and citation resolution rates.
