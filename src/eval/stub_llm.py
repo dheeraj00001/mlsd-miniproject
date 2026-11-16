@@ -1,8 +1,8 @@
-"""Realistic LLM Stub Service for benchmarking and load testing (D6).
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
 
-Replaces live external LLM API calls with fixed responses returned after a realistic delay,
-allowing load testing to benchmark system queuing, retrieval, and serialization without
-being throttled by provider rate limits.
+Realistic LLM Stub Service for benchmarking and load testing (D6).
+Replaces live external LLM API calls with deterministic responses returned after realistic simulated delays,
+allowing performance benchmarking of queueing, retrieval, and serialization without cloud rate limits.
 """
 
 import time

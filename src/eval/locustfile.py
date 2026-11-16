@@ -1,11 +1,11 @@
-"""Locust Load Testing Suite with Stub LLM and Declared p95 SLO (D6).
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
 
-Measures complete incident triage run latency from submission (POST /runs)
-to final grounded diagnostic result (GET /runs/{id}).
+Locust Load Testing Suite with Stub LLM and Declared p95 SLOs (D6).
+Simulates concurrent on-call incident submissions and validates asynchronous run lifecycle latency.
 
-Declared Target SLO:
-- Complete end-to-end run latency p95 <= 8.00 seconds.
-- Ingestion submission latency p95 <= 0.20 seconds.
+Declared Target SLOs:
+- Complete end-to-end run latency: p95 <= 8.00 seconds.
+- Ingestion submission latency: p95 <= 0.20 seconds.
 """
 
 import time
