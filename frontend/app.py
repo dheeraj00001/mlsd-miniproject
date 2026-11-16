@@ -1,8 +1,9 @@
-"""IncidentOps — Streamlit Web Client (A8).
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
 
+IncidentOps — Streamlit Web Client (A8).
 Thin async client that submits incident alerts to the FastAPI backend,
 polls run status asynchronously, and renders advisory recommendations,
-verified citations, and escalation paths.
+verified citations, quarantine logs, and escalation paths.
 """
 
 import os
