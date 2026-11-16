@@ -1,4 +1,9 @@
-"""Heading-aware hierarchical document chunker (~250-350 tokens) with breadcrumb prepending."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Heading-aware hierarchical document chunker (~250-350 tokens) with breadcrumb prepending.
+Extracts heading hierarchy (e.g. [# Chapter > ## Section]) and injects breadcrumbs into
+every chunk to guarantee semantic grounding and section isolation.
+"""
 
 import re
 

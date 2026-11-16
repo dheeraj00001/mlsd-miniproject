@@ -1,4 +1,8 @@
-"""Parsers for PostgreSQL documentation (PDF/Markdown), runbooks, and policies."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Parsers for PostgreSQL 18 documentation (PDF/Markdown), operational runbooks, and policies.
+Includes SHA-256 change detection and structured metadata extraction.
+"""
 
 import hashlib
 from pathlib import Path

@@ -1,4 +1,9 @@
-"""Corpus Ingestion Orchestrator and CLI for PostgreSQL docs, runbooks, and policies (D2, L1)."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Corpus Ingestion Orchestrator and CLI for PostgreSQL docs, runbooks, and policies (D2, L1).
+Orchestrates PDF parsing, markdown extraction, hierarchical chunking, SHA-256 change detection,
+and manifest persistence.
+"""
 
 import argparse
 import logging
