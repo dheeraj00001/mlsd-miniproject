@@ -1,5 +1,6 @@
-"""CLI Scenario Evaluation Runner (L3, eval-integrity.md).
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
 
+CLI Scenario Evaluation Runner (L3, eval-integrity.md).
 Executes the multi-agent incident triage and investigation suite across
 benchmarked operational scenarios and prints scientific accuracy and grounding metrics.
 

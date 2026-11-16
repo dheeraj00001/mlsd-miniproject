@@ -1,4 +1,7 @@
-"""Unit and integration tests for Scenario Evaluation Suite & CLI (L3, eval-integrity.md)."""
+"""Student 3: Knowledge Retrieval, Evaluation & Frontend Engineer.
+
+Unit and integration tests for Scenario Evaluation Suite & CLI (L3, eval-integrity.md).
+"""
 
 from app.eval.run import main
 from src.eval.runner import ScenarioEvaluator
